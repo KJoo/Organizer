@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = find:
+include_package_data = true
+
+[tool.setuptools.package-data]
+organizer = ["config.yaml"]
+
+[tool.setuptools.scripts]
+organize = "organizer.core:main"
