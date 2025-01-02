@@ -1,0 +1,2 @@
+[console_scripts]
+organize = organizer.core:main

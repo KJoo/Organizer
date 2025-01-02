@@ -1,0 +1,20 @@
+base_dir: ~/Downloads
+simulate: false
+extract: false
+integrity: false
+password: null
+file_filter: ".*"
+exclude_filter: null
+time_based: false
+max_threads: 4
+log_level: INFO
+schedule:
+  daily:
+    - ~/Downloads
+  weekly:
+    - ~/Pictures
+  custom:
+    - folder: ~/Music
+      interval: "monday"
+      time: "10:00"
+
